@@ -1,26 +1,16 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [data, setData] = useState("");
+
   return (
     <div className="App">
-      <p>First React Test Case</p>
-      <p>Shahrukh Khan</p>
+      <h1>Test onChange Event with Input Text</h1>
       <input
         type="text"
-        placeholder="Enter User Name"
-        name="username"
-        id="userId"
-        value="shahrukh"
-        readOnly
-      />
-      <br />
-      <br />
-      <br />
-
-      <img
-        title="AI generated image"
-        src="https://images.tech.co/wp-content/uploads/2023/11/21202640/AI-generated-landscape.jpg"
-        alt="AI"
+        value={data}
+        onChange={(e) => setData(e.target.value)}
       />
     </div>
   );
