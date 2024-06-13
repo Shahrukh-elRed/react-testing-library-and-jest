@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>First React Test Case</p>
+      <p>Shahrukh Khan</p>
+      <img
+        title="AI generated image"
+        src="https://images.tech.co/wp-content/uploads/2023/11/21202640/AI-generated-landscape.jpg"
+        alt="AI"
+      />
     </div>
   );
 }
