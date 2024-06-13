@@ -11,6 +11,7 @@ function App() {
         name="username"
         id="userId"
         value="shahrukh"
+        readOnly
       />
       <br />
       <br />
