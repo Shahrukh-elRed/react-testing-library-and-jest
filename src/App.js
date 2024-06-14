@@ -1,14 +1,9 @@
-import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [data, setData] = useState();
-
   return (
     <div className="App">
-      <h1>Snapshot Testing</h1>
-      <button onClick={() => setData("hello")}>Update Data</button>
-      <h1>{data}</h1>
+      <h1>Class Component methods testing</h1>
     </div>
   );
 }
