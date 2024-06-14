@@ -4,7 +4,7 @@ import Users from "./Users";
 function App() {
   return (
     <div className="App">
-      <h1>Class Component methods testing</h1>
+      <h1>Functional Component methods testing</h1>
       <Users />
     </div>
   );
