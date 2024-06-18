@@ -1,7 +1,15 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  const [data, setData] = useState("");
+
+  return (
+    <div className="App">
+      <h1>{data}</h1>
+      <button onClick={() => setData("hello")}>Click me</button>
+    </div>
+  );
 }
 
 export default App;
